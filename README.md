@@ -23,9 +23,11 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
 
 Data Preprocessing:
   What variable(s) are the target(s) for your model?
+  The target variables are whether a campaign is successful or not.
   What variable(s) are the features for your model?
+  The features are the income the campaign received in relation to their asking amount.
   What variable(s) should be removed from the input data because they are neither targets nor features?
-  
+  Variables that should be removed include special_considerations, organization, affiliation, etc.
 Compiling, Training, and Evaluating the Model:
   1) How many neurons, layers, and activation functions did you select for your neural network model, and why?
        My final optimization contained three hidden layers, two with "relu" activation functions and one "sigmoid, in addition to one output layer with a sigmoid activation function.
@@ -37,7 +39,7 @@ Compiling, Training, and Evaluating the Model:
         I then binned the "APPLICATION_TYPE" column, and kept in the "CLASSIFICATION" bin from the first model. Finally, I added a third hidden "sigmoid" layer to the             model, assigned them input features of 8:16:24.
 
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
-
+The overall results returned an accuracy of 0.7778 at a loss of 0.4581 percent of the data. If I were to reccomed a different model, I might start by binning the successful vs non-successful campaigns. 
 
 
 
