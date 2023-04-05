@@ -39,7 +39,7 @@ Compiling, Training, and Evaluating the Model:
         I then binned the "APPLICATION_TYPE" column, and kept in the "CLASSIFICATION" bin from the first model. Finally, I added a third hidden "sigmoid" layer to the             model, assigned them input features of 8:16:24.
 
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
-The overall results returned an accuracy of 0.7778 at a loss of 0.4581 percent of the data. If I were to reccomed a different model, I might start by binning the successful vs non-successful campaigns. 
+The overall results returned an accuracy of 0.7778 at a loss of 0.4581 percent of the data. If I were to recommed a different model, I might start by binning the income amount of the campaigns. 
 
 
 
